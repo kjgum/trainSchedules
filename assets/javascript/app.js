@@ -58,3 +58,13 @@ scheduleData.on('child_added', function(snapshot, prevChildKey) {
         "</td>" + "<td>" + nextTrainAMPM + "</td>" + "<td>" +
         minsAway + "</td>" + "</tr>");
 });
+
+
+
+
+    $("#clearAll").click(function() {
+            $("#trainName").val('');
+            $("#destination").val('');
+            $("#t1").val('');
+            $("#frequency").val('');
+        });
