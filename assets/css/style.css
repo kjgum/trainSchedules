@@ -1,0 +1,54 @@
+body {
+	background-color: #cc9900;
+	font-family: 'Enriqueta', serif;
+	background-image: url('../grey.png');
+  /*background-image: url('http://static.vecteezy.com/system/resources/previews/000/106/286/original/geometric-tiled-pattern-background-vector.jpg');*/
+   background-repeat: none;
+   background-attachment: fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+  	background-size: cover;
+  	overflow-x:hidden;
+}
+
+
+.jumbotron {
+	background-color:#536879;
+	color: white;
+	font-family: 'Cedarville Cursive', cursive;
+	/*border: 1px solid white;*/
+}
+
+.panel {
+	background-color: #E9E9E9;
+	color: black;
+	border: none;
+}
+
+
+.panel-heading {
+	background-color: #536879;
+	color: white;
+
+}
+
+.footer{
+  background-color: ;
+  position: relative;
+  top: 25px;
+  color: #536879;
+  font-size: 11px;
+  font-family: 'Cedarville Cursive', cursive;
+  padding: 5px;
+
+}
+
+.footer a {
+	color: #536879;
+}
+
+.table-hover:tr:hover {
+  background-color: white;
+}
+
